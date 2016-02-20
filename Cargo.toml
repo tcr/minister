@@ -1,0 +1,14 @@
+[package]
+name = "primeminister"
+version = "0.1.0"
+authors = ["Tim Ryan <tim@3drobotics.com>"]
+
+[dependencies]
+flate2 = "0.2"
+tar = "0.4.3"
+rustc-serialize = "*"
+hyper = "0.7.2"
+scoped-pool = "0.1.5"
+
+[profile.release]
+lto = true
